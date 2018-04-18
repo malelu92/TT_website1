@@ -58,6 +58,15 @@
 
 /* TeleTracking*/
 
+	.home_topic {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	#quotes {
+		font-style: italic;
+	}
+
 	#solution {
 		color: #FF004D;
 		font-size: 30px;
