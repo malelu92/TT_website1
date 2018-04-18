@@ -2591,7 +2591,7 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		postiion: relative;
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2.5em 0 0 0;
 	}
 
 		.tiles article {
@@ -3344,7 +3344,7 @@
 		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding: 0 2.5em;
+		padding: 0 6em;
 	}
 
 		@media screen and (max-width: 736px) {
