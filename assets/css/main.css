@@ -58,6 +58,17 @@
 
 /* TeleTracking*/
 
+	.circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+      stroke: black;
+      stroke-width: 3px;
+	}
+
 	.home_topic {
 		font-size: 25px;
 		font-weight: bold;
