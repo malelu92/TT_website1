@@ -61,6 +61,7 @@
 	.home_topic {
 		font-size: 25px;
 		font-weight: bold;
+		margin: 3em 0 0.5em 0;
 	}
 
 	#quotes {
@@ -1703,9 +1704,9 @@
 		font-style: italic;
 	}
 
-	p {
+	/*p {
 		margin: 0 0 2em 0;
-	}
+	}*/
 
 	h1 {
 		font-size: 2.75em;
