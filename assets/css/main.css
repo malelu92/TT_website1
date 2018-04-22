@@ -73,6 +73,11 @@
       margin-bottom: 2em;
 	}
 
+	#home_image {
+		width: 100%;
+
+	}
+
 	.home_topic {
 		font-size: 25px;
 		font-weight: bold;
