@@ -113,6 +113,10 @@
 		margin: 8em 0 0 0;
 	}
 
+	.top-video {
+		width: 100%;
+	}
+
 	.carousel.slide {
 		width: 70%;
     	display: block;
