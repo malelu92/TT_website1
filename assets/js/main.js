@@ -7,13 +7,6 @@
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
     var target = this.hash;
-    /*var header = 0;
-    if(target == "#about") {
-      header = $("nav").outerHeight()+100;
-    }
-    target = "#sec-" + target.split('#')[1];*/
-    /*target = target.split('#')[1];*/
-    console.log(target)
     $('html, body').animate({
         scrollTop: $(target).offset().top
     }, 1500);
