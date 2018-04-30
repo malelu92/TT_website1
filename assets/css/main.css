@@ -2412,7 +2412,8 @@
 		.image.research-small {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 25%;
+			width: calc(25% - 1.5em);
+			margin: 1.5em 1.5em 0 0;
 		}
 
 			.image.research-small img {
@@ -2422,7 +2423,8 @@
 		.image.research-medium {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 50%;
+			width: calc(50% - 1.5em);
+			margin: 1.5em 0 0 1.5em;
 		}
 
 			.image.research-medium img {
