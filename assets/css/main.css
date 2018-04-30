@@ -95,10 +95,16 @@
 		font-style: italic;
 	}
 
-	#solution {
+	.solution {
 		color: #FF004D;
 		font-size: 30px;
 	}
+
+	.solution.research {
+		margin: 8em 0 0 0;
+	}
+
+
 
 /* Grid */
 
