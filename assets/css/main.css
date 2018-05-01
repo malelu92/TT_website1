@@ -102,7 +102,7 @@
 	}
 
 	#main_quote {
-		margin-bottom: 15em;
+		margin-bottom: 12em;
 	}
 
 	#quotes {
@@ -116,6 +116,7 @@
 	.solution {
 		color: #FF004D;
 		font-size: 30px;
+		margin: 3em 0 1em 0;
 	}
 
 	.solution.research {
