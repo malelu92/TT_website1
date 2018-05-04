@@ -12,6 +12,14 @@
     }, 1500);
   });
 
+  $(".button-design").click(function() {
+    location.href = "design.html";
+  });
+
+  $(".button-research").click(function() {
+    location.href = "research.html";
+  });
+
 (function($) {
 
 	skel.breakpoints({
