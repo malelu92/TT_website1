@@ -20,6 +20,21 @@
     location.href = "research.html";
   });
 
+  $(".button-exploratory").click(function() {
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $("#exploratory").offset().top
+    }, 1500);
+  });
+
+  $(".button-generative").click(function() {
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $("#generative").offset().top
+    }, 1500);
+  });
+
+
 (function($) {
 
 	skel.breakpoints({
