@@ -178,6 +178,11 @@ img {vertical-align: middle;}
 		margin: 3% 0 0 30%;
 	}
 
+	.caption-text.storyboard {
+		margin: 3% 0 0 26%;
+		font-size: 25px;
+	}
+
 	.caption-box {
 	/*display: block
     margin-left: auto;
