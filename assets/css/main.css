@@ -1874,7 +1874,7 @@ img {vertical-align: middle;}
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: black/*#585858*/;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
