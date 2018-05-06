@@ -30,10 +30,11 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  if (slides[slideIndex-1] != undefined) {
+  	  slides[slideIndex-1].style.display = "block";  
+  	  dots[slideIndex-1].className += " active";
+  }
 }
-
 
 
   $(document).on('click', 'a[href^="#"]', function (event) {
@@ -49,6 +50,7 @@ function showSlides(n) {
   });
 
   $(".button-research").click(function() {
+  	console.log("foi")
     location.href = "research.html";
   });
 
