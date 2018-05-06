@@ -164,6 +164,22 @@ img {vertical-align: middle;}
 
 /* TeleTracking*/
 
+
+		@media screen and (max-width: 360px) {
+
+			.button.pink {
+				letter-spacing: 0;
+				padding: 0 0 0 0;
+			}
+			.button.button-exploratory {
+				letter-spacing: 0;
+			}
+			.button.button-generative {
+				letter-spacing: 0;
+			}
+		}
+
+
 	.button.pink {
 		box-shadow: none;
 		color: white;
