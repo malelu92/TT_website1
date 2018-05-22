@@ -260,12 +260,19 @@ img {vertical-align: middle;}
 		text-align: center;
 	}
 
-	#main_quote {
+	#opening_quote {
 		margin-bottom: 12em;
+	}
+
+	#main_quote {
+		font-weight: bold;
+    	font-size: 36px;
+    	color: #4A4A4A;
 	}
 
 	#quotes {
 		font-style: italic;
+		margin-top: 1em;
 	}
 
 	.red-mark {
@@ -275,6 +282,8 @@ img {vertical-align: middle;}
 	.solution {
 		color: #FF004D;
 		font-size: 30px;
+		font-weight: bold;
+		line-height: 1.4;
 		margin: 3em 0 1em 0;
 	}
 
