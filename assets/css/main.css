@@ -246,6 +246,15 @@ img {vertical-align: middle;}
 		margin: 3em 0 0.5em 0;
 	}
 
+	.icon {
+		height: 80px;
+		width: 80px;
+		display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2em;
+	}
+
 	.icon-title {
 		font-weight: bold;
 		text-align: center;
